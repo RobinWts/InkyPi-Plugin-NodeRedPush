@@ -2,5 +2,5 @@
     "display_name": "Node Red Push",
     "id": "noderedpush",
     "class": "NodeRedPush",
-    "repository": ""
+    "repository": "https://github.com/RobinWts/InkyPi-Plugin-NodeRedPush"
 }

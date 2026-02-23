@@ -56,7 +56,7 @@ Use the same URL and JSON body from Python (`requests.post(...)`), shell scripts
 Install the plugin using the InkyPi CLI with the plugin ID and repository URL:
 
 ```bash
-inkypi plugin install noderedpush https://github.com/YOUR_USERNAME/InkyPi-Plugin-nodeRedPush
+inkypi plugin install noderedpush https://github.com/RobinWts/InkyPi-Plugin-NodeRedPush
 ```
 
 Or install the [Plugin Manager](https://github.com/RobinWts/InkyPi-Plugin-PluginManager) first and install this plugin via the Web UI.
