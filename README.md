@@ -24,7 +24,7 @@ The plugin requires **blueprint registration** in InkyPi core. On first open of 
 
 **Settings:**
 
-![Screenshot of settings of InkyPi-Plugin-nodeRedPush](./settings.png)
+![Screenshot of settings of InkyPi-Plugin-nodeRedPush](./settings2.png)
 
 - **Push URL** — The API path (e.g. `/noderedpush-api/push`). Full URL = your InkyPi base URL + API path. On the device InkyPi listens on port **80** (e.g. `http://192.168.1.10/noderedpush-api/push`); in dev mode it uses port **8080**.
 - **Using from Node-RED** — Short instructions: use an HTTP Request node (POST, JSON body), set `msg.payload = { "html": "<div>...</div>" }` and `msg.headers["Content-Type"] = "application/json"`.
