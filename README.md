@@ -26,7 +26,7 @@ The plugin requires **blueprint registration** in InkyPi core. On first open of 
 
 ![Screenshot of settings of InkyPi-Plugin-nodeRedPush](./settings.png)
 
-- **Push URL** — The API path (e.g. `/noderedpush-api/push`). Full URL = your InkyPi base URL + this path. On the device InkyPi listens on port **80** (e.g. `http://192.168.1.10/noderedpush-api/push`); in dev mode it uses port **8080**.
+- **Push URL** — The API path (e.g. `/noderedpush-api/push`). Full URL = your InkyPi base URL + API path. On the device InkyPi listens on port **80** (e.g. `http://192.168.1.10/noderedpush-api/push`); in dev mode it uses port **8080**.
 - **Using from Node-RED** — Short instructions: use an HTTP Request node (POST, JSON body), set `msg.payload = { "html": "<div>...</div>" }` and `msg.headers["Content-Type"] = "application/json"`.
 - **Example flow** — Copy-paste JSON for a minimal Node-RED flow (Inject → Function → HTTP Request → Debug). Import via Node-RED → Import → Clipboard, then set the HTTP Request URL to your InkyPi host.
 - **InkyPi fonts** — The push API injects InkyPi’s built-in fonts into your HTML. Use `font-family: "Jost"`, `"Dogica"`, `"Napoli"`, or `"DS-Digital"` in your CSS. Jost and Dogica support `font-weight: bold`. A copy-paste HTML snippet in the settings shows an example using all four fonts.
